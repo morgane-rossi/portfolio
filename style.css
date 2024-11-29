@@ -1,0 +1,134 @@
+:root {
+    --primary-color: #e0ffcd;
+    --secondary-color: #ffebbb;
+    --accent-color: #ffcab0;
+    --background-color: #fdffcd;
+    --text-color: #333333;
+    --gradient-start: #F4D35E;
+    --gradient-end: #0D3B66;
+}
+
+body {
+    background-image: url("assets/pexel.jpeg");
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Navigation */
+nav {
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+nav a {
+    color: black;
+    padding: 0.5rem 1.5rem;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+nav a:hover {
+    background-color: var(--secondary-color);
+    color: white;
+    transform: translateY(-3px);
+}
+
+.flex-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.welcome {
+    background: white;
+    padding: 3rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    opacity: 0.8;
+    margin-top: 50px;
+}
+
+.project-description {
+    display: flex;
+
+}
+
+.pizza {
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 25px;
+    background-color: white;
+    opacity: 0.8;
+    padding: 15px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.image a img {
+    object-fit: cover;
+}
+
+.central {
+    text-align: center;
+}
+
+.left {
+    text-align: left;
+}
+
+.welcome h1 {
+    font-size: 3.5rem;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    color: black;
+    font-weight: bold;
+}
+
+.welcome h2, .welcome p, .welcome ul li {
+    padding: 15px;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+p {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+ul li {
+    font-weight: bold;
+    list-style: none;
+}
+
+footer {
+    background-color: white;
+    opacity: 0.8;
+    padding: 30px;
+
+}
+
+
+footer ul {
+    display: flex;
+    justify-content: space-evenly;
+}
